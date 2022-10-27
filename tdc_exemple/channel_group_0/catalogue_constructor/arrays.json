@@ -1,0 +1,225 @@
+{
+    "signals_medians": {
+        "dtype": "float32",
+        "shape": [
+            6
+        ],
+        "annotations": {}
+    },
+    "signals_mads": {
+        "dtype": "float32",
+        "shape": [
+            6
+        ],
+        "annotations": {}
+    },
+    "all_peaks": {
+        "dtype": [
+            [
+                "index",
+                "<i8"
+            ],
+            [
+                "cluster_label",
+                "<i8"
+            ],
+            [
+                "channel",
+                "<i8"
+            ],
+            [
+                "segment",
+                "<i8"
+            ],
+            [
+                "extremum_amplitude",
+                "<f8"
+            ]
+        ],
+        "shape": [
+            9470
+        ],
+        "annotations": {}
+    },
+    "some_peaks_index": {
+        "dtype": "int64",
+        "shape": [
+            3261
+        ],
+        "annotations": {}
+    },
+    "some_noise_index": {
+        "dtype": [
+            [
+                "index",
+                "<i8"
+            ],
+            [
+                "cluster_label",
+                "<i8"
+            ],
+            [
+                "channel",
+                "<i8"
+            ],
+            [
+                "segment",
+                "<i8"
+            ],
+            [
+                "extremum_amplitude",
+                "<f8"
+            ]
+        ],
+        "shape": [
+            294
+        ],
+        "annotations": {}
+    },
+    "some_noise_snippet": {
+        "dtype": "float32",
+        "shape": [
+            294,
+            50,
+            6
+        ],
+        "annotations": {}
+    },
+    "some_features": {
+        "dtype": "float32",
+        "shape": [
+            3261,
+            18
+        ],
+        "annotations": {}
+    },
+    "channel_to_features": {
+        "dtype": "bool",
+        "shape": [
+            6,
+            18
+        ],
+        "annotations": {}
+    },
+    "some_noise_features": {
+        "dtype": "float32",
+        "shape": [
+            294,
+            18
+        ],
+        "annotations": {}
+    },
+    "some_waveforms": {
+        "dtype": "float32",
+        "shape": [
+            1140,
+            120,
+            6
+        ],
+        "annotations": {}
+    },
+    "some_waveform_index": {
+        "dtype": "int64",
+        "shape": [
+            1140
+        ],
+        "annotations": {}
+    },
+    "clusters": {
+        "dtype": [
+            [
+                "cluster_label",
+                "<i8"
+            ],
+            [
+                "cell_label",
+                "<i8"
+            ],
+            [
+                "extremum_channel",
+                "<i8"
+            ],
+            [
+                "extremum_amplitude",
+                "<f8"
+            ],
+            [
+                "waveform_rms",
+                "<f8"
+            ],
+            [
+                "nb_peak",
+                "<i8"
+            ],
+            [
+                "tag",
+                "<U16"
+            ],
+            [
+                "annotations",
+                "<U32"
+            ],
+            [
+                "color",
+                "<u4"
+            ]
+        ],
+        "shape": [
+            4
+        ],
+        "annotations": {}
+    },
+    "centroids_median": {
+        "dtype": "float32",
+        "shape": [
+            4,
+            50,
+            6
+        ],
+        "annotations": {}
+    },
+    "centroids_median_long": {
+        "dtype": "float32",
+        "shape": [
+            4,
+            120,
+            6
+        ],
+        "annotations": {}
+    },
+    "centroids_mad": {
+        "dtype": "float32",
+        "shape": [
+            4,
+            50,
+            6
+        ],
+        "annotations": {}
+    },
+    "centroids_mean": {
+        "dtype": "float32",
+        "shape": [
+            4,
+            50,
+            6
+        ],
+        "annotations": {}
+    },
+    "centroids_std": {
+        "dtype": "float32",
+        "shape": [
+            4,
+            50,
+            6
+        ],
+        "annotations": {}
+    },
+    "centroids_sparse_mask": {
+        "dtype": "bool",
+        "shape": [
+            4,
+            6
+        ],
+        "annotations": {}
+    }
+}

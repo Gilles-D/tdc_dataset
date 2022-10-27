@@ -1,0 +1,12 @@
+{
+    "processed_signals": {
+        "dtype": "float32",
+        "shape": [
+            486217,
+            6
+        ],
+        "annotations": {
+            "processed_length": 486216
+        }
+    }
+}
